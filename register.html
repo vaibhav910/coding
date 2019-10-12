@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REgisteration page</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form >
+            <h2>name</h2>
+            <p><label for="name">name</label>
+            <input id="name" name="Name" type="text"  placeholder="john" required>
+            <label for="surname">surname</label>
+            <input id="surname" name="Surname" type="text" placeholder="cena"  required></p>
+             <h2>gender</h2>
+            <p><label for="male">male</label>
+            <input name="gender" id="male" type="radio" value="male" required>
+            <label for="female">female</label>
+            <input  name="gender" id="female" type="radio" value="female" required>
+            <label for="other">other</label>
+            <input name="gender" id="other" type="radio" value="other" required> </p>
+            <p><label for="email id"></label>
+            <input id="email id " name="Email id" type="email" placeholder="email" required>
+            <label for="Password"></label>
+            <input id="Password" name="Password" type="password" pattern =".{5,10}" required title="5 to 10 char"></p>
+            <p><h3>birthday</h3>
+                
+                <input name="BOD "type="date" required>
+                </p>
+            <p>i agree to the term and condition
+            <input type="checkbox" required>
+            </p>
+      <button>submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+h1{
+    color: rgb(230, 11, 11);
+    border:3px solid blueviolet;
+    background-color: pink;
+    
+border-color: aliceblue;
+border-width: 2px;
+border-style: solid;
+}
+h2{
+    color:rgba(10, 200, 10, 0.479);
+}
+li{
+    color:	rgba(10, 200,10, 0.877);
+}
+    body{
+      background-color: pink ;   
+     
+    }
+    p{
+        color: blue;
+    }
+    #sp{
+        color: red;
+    }
+    .spp{
+        color: grey;
+    }
+    #s{
+        color: blueviolet;
+    }
